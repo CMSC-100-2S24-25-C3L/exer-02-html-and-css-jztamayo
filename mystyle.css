@@ -24,9 +24,30 @@ header {
 .photos {
     padding-top: 9px;
     box-shadow: 10px 10px 10px rgb(190, 3, 149);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
 }
 
 .information {
     padding: 15px;
     font-family: Roboto;
+}
+
+.topnav {
+    background-color: gray;
+}
+
+.topnav a {
+    display: block;
+    color: rgb(190, 3, 149);
+    text-align: center;
+    padding: 15px 15px;
+    font-size: 18px
+}
+
+.topnav a:hover {
+    background-color: aqua;
+    color: black;
 }
