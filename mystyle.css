@@ -1,0 +1,53 @@
+@import url(https://fonts.googleapis.com/css?family=Audiowide);
+@import url(https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap);
+
+body {
+    background-color: rgb(3, 169, 190);
+    align-items: center;
+
+}
+
+h1 {
+    font-family: "Audiowide" !important;
+}
+
+header {
+    font-size: 39;
+}
+
+.flex-container {
+    display: flex;
+    background-color: rgb(212, 207, 207);
+
+}
+
+.photos {
+    padding-top: 9px;
+    box-shadow: 10px 10px 10px rgb(190, 3, 149);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.information {
+    padding: 15px;
+    font-family: Roboto;
+}
+
+.topnav {
+    background-color: gray;
+}
+
+.topnav a {
+    display: block;
+    color: rgb(190, 3, 149);
+    text-align: center;
+    padding: 15px 15px;
+    font-size: 18px
+}
+
+.topnav a:hover {
+    background-color: aqua;
+    color: black;
+}
